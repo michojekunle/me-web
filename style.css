@@ -1,0 +1,53 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header, footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    padding: 1em;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+img[data-testid="slackProfilePicture"] {
+    max-width: 150px;
+    height: auto;
+}
+
+/* Links */
+#links a {
+    display: block;
+    margin: 0.5em 0;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+#links a:hover {
+    color: #007BFF;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        font-size: 0.9em;
+    }
+
+    img[data-testid="slackProfilePicture"] {
+        max-width: 100px;
+    }
+}
